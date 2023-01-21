@@ -1807,14 +1807,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.workplace-content__button::before {
-  content: "";
-  position: absolute;
   width: 1.6875rem;
   height: 1.6875rem;
-  z-index: -1;
   border-radius: 50%;
   border: 1px solid #7474a0;
   -webkit-transition: all 0.5s ease 0s;
@@ -6612,7 +6606,7 @@ body {
     color: #34343F;
   }
 
-  .workplace-content__button:hover::before {
+  .workplace-content__button {
     border: 1px solid #34343F;
   }
 
